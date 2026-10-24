@@ -1,0 +1,142 @@
+:root {
+  --azul: blue;
+  --blanco: white;
+  --gris: rgba(217, 214, 214, 0.507);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 24px;
+  color: #333;
+  background-color: var(--gris);
+  padding: 200px;
+}
+
+.ancho {
+  width: 1200px;
+  margin: auto;
+  border: 2px red solid;
+}
+
+.centrar {
+  text-align: center;
+}
+
+.izq {
+  text-align: left;
+}
+
+.der {
+  text-align: right;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.contenedor_negocio {
+  /* border: 2px blue solid; */
+  
+  margin: auto;
+ 
+}
+
+.texto_pequeño {
+  color: var(--azul);
+  font-size: 30px;
+}
+
+.titulo {
+  font-size: 40px;
+  
+}
+
+.parrafo {
+  font-size: 16px;
+}
+
+.contenedor_info {
+  /* border: 2px purple solid; */
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 40px;
+  
+}
+
+.div1 input, .div2 input {
+  padding: 5px;
+  width: 250px;
+  height: 40px;
+  /* border: 1px #333 solid; */
+  padding-left: 15px;
+  border: None;
+}
+
+.div3 select, .div5 select {
+  padding: 5px;
+  width: 505px;
+  height: 40px;
+  /* border: 1px #333 solid; */
+  padding-left: 15px;
+  border:None;
+}
+
+.empresa {
+  padding: 5px;
+  width: 505px;
+  height: 40px;
+  /* border: 1px #333 solid; */
+  padding-left: 15px;
+  border:None;
+}
+
+.div1, .div2, .div3,.div4,.div5 {
+  margin-bottom: 30px;
+}
+
+.contenedor_form {
+  background-color: var(--blanco);
+  border-radius: 20px;
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a {
+  color: var(--azul);
+  text-decoration: none;
+}
+
+button {
+  padding: 5pxpx;
+  width: 505px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 15px;
+  color: var(--blanco);
+  background-color: var(--azul);
+  border: none;
+  font-weight: bold;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: purple;
+}
+
+#nombre:focus, #apellido:focus, #email:focus, #telefono:focus {
+  background: rgba(0, 0, 255, 0.244);
+}
+
+#industrias:focus {
+  outline: 2px blue solid;
+  outline-offset: 4px;
+  
+}

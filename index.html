@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario - negocio</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="contenedor_negocio centrar">
+    <div class="contenedor_info padding izq">
+      <span class="texto_pequeño">Contáctanos</span>
+      <br><br>
+      <h1 class="titulo">¿Necesitas ayuda para hacer crecer tu negocio?</h1>
+      <br>
+      <p class="parrafo">Solicita más información y juntos idearemos la estrategia perfcta para cumplir tus metas.</p>
+    </div>
+    
+
+    <div class="contenedor_form padding centrar">
+      <form id="form" action="prueba.php" method="get">
+        <div class="div1">
+          <input type="text" placeholder="Nombre*" id="nombre">
+          <input type="text" placeholder="Apellidos*" id="apellido">
+        </div>
+        <div class="div2">
+          <input type="email" placeholder="Correo electrónico*" id="email">
+          <input type="tel" placeholder="Número de teléfono móvil*" id="telefono">
+        </div>
+        <div class="div3"> 
+          <select name="" id="">
+            <option value="">Selecciona tu presupuesto</option>
+            <option value="1">Preupuesto 1</option>
+            <option value="2">presupuesto2</option>
+          </select>
+        </div>
+        <div class="div4">
+          <input class="empresa" type="text" placeholder="Nombre de la empresa">
+        </div>
+        <div class="div5">
+          <select name="industrias" id="industrias">
+            <option value="">Selecciona una industria de tu empresa*</option>
+            <option value="1">opcion 1</option>
+            <option value="2">opcion2</option>
+          </select>
+        </div>
+        <div class="link">
+          <a href="#">Sitio web</a>
+        </div>
+        <button type="button" id="subm">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-4.0.0.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
