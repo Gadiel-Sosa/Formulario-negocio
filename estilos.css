@@ -16,7 +16,7 @@ body {
   font-weight: 24px;
   color: #333;
   background-color: var(--gris);
-  padding: 200px;
+  padding: 40px 20px;
 }
 
 .ancho {
@@ -43,9 +43,7 @@ body {
 
 .contenedor_negocio {
   /* border: 2px blue solid; */
-  
   margin: auto;
- 
 }
 
 .texto_pequeño {
@@ -55,7 +53,6 @@ body {
 
 .titulo {
   font-size: 40px;
-  
 }
 
 .parrafo {
@@ -68,7 +65,6 @@ body {
   display: inline-block;
   vertical-align: middle;
   margin-right: 40px;
-  
 }
 
 .div1 input, .div2 input {
@@ -117,7 +113,7 @@ body {
 } */
 
 button {
-  padding: 5pxpx;
+  padding: 5px;
   width: 505px;
   height: 50px;
   font-size: 18px;
@@ -139,5 +135,4 @@ button:hover {
 #industrias:focus {
   outline: 2px blue solid;
   outline-offset: 4px;
-  
 }
