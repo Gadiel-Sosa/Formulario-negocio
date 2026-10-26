@@ -32,6 +32,12 @@ if ($("#industrias").val() == ''){
   return false;
 }
 
+// if ($("#web").val().trim() == "") {
+//     alert("Escibe la web");
+//     $("#web").focus();
+//     return false;
+//   }
+
 
 
 
